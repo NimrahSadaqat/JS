@@ -85,7 +85,7 @@
 //     console.log((contactNames))
 //   }
 // }
-// alert("List: " + contactNames + (" ") contactNumbers)
+// alert("List: " + contactNames + (" ") + contactNumbers)
 
 
 // Task 6:
@@ -94,47 +94,55 @@
 // var position =+ prompt("Enter position: ")
 
 
+// var products = ["Mango", "Apple", "Banana", "Orange", "Grapes", "Pineapple", "Watermelon", "Peach"]; 
+// var userInput = (prompt(`Enter the position of the item you want to remove (1 - 8}):`)); 
+// var removedItem = products.splice(userInput, 1 ); 
+// console.log(`The removed item is:`+ removedItem);
+// alert(`The removed item is: ` + removedItem); 
+// console.log(`The remaining items in the array are: ` + products);
+// alert(`The remaining items in the array are: ` + products); 
+// console.log(`Total number of items remaining: ` + products.length);
+// alert(`Total number of items remaining: ` + products.length);
+
+
+
 // Task 7:
 
-// var nation = prompt("Enter your Nationality: ")
-// var updateNation = nation.toLowerCase
-// var gender = prompt("Enter Your Gender: ")
-// var updateGender = gender.toLowerCase
-// var age = + prompt("Enter Your Age: ")
-// var updateAge = age.toLowerCase
+var nation = prompt("Enter your Nationality: ")
+var updateNation = nation.toLowerCase
+var gender = prompt("Enter Your Gender: ")
+var updateGender = gender.toLowerCase
+var age = + prompt("Enter Your Age: ")
+var updateAge = age.toLowerCase
 
-// if ((updateNation == pakistani) || (updateNation == indian)) {
-//     if ((gender == male) && (age >= 18)) {
-//         console.log("You are eligible to vote")
+if ((updateNation == "pakistani") || (updateNation == "indian")) {
+    if (gender == "male" && age >= 18) {
+        console.log('You are eligible to vote')
+    }
+        else if (gender== "female" && age>=18) {
+            var marriage = (prompt("Are you married?"))
+            var updateMarriage = marriage.toLowerCase
+            if (marriage== "yes") {
+               console.log('You Are Eligible to vote')
+            } else {
+                console.log('You are not eligble')
+            }
 
-//     }
-//     //     else if ((gender==female) && (age>=18)) {
-//     //         var marriage = (alert(prompt("Are you married?")))
-//     //         var updateMarriage = marriage.toLowerCase
-//     //         if (marriage==yes) {
-//     //             alert("You are Eligible")
-//     //         } else {
-//     //             alert("You are not eligble")
-//     //         }
+    } else {
+       console.log('You are not Eligible to vote')
+    }
 
-//     //     }
+} else {
+        console.log("You are not eligible to vote")
 
-//     else {
-//         alert("You are not eligible")
-//     }
+    }
 
-// // }
-//  else {
-//         alert("You are not eligible to vote")
-
-//     }
-// }
 
 
 
 
 // Task 8:
 
-var worldCupSquad = ['Babar', 'Shaheen', 'Rizwan', 'Amir', 'Shadab', 'Fakhar', 'Sarfaraz', 'Imad', 'Haris', 'Hasan', 'Hasnain', 'Imam', 'Asif', 'Shoaib', 'Hafeez']
-var Temporary = worldCupSquad.slice(3,16)
-alert(Temporary)
+// var worldCupSquad = ['Babar', 'Shaheen', 'Rizwan', 'Amir', 'Shadab', 'Fakhar', 'Sarfaraz', 'Imad', 'Haris', 'Hasan', 'Hasnain', 'Imam', 'Asif', 'Shoaib', 'Hafeez']
+// var Temporary = worldCupSquad.slice(3,16)
+// alert(Temporary)
