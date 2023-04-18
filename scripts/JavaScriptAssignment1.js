@@ -108,34 +108,34 @@
 
 // Task 7:
 
-var nation = prompt("Enter your Nationality: ")
-var updateNation = nation.toLowerCase
-var gender = prompt("Enter Your Gender: ")
-var updateGender = gender.toLowerCase
-var age = + prompt("Enter Your Age: ")
-var updateAge = age.toLowerCase
+// var nation = prompt("Enter your Nationality: ")
+// var updateNation = nation.toLowerCase
+// var gender = prompt("Enter Your Gender: ")
+// var updateGender = gender.toLowerCase
+// var age = + prompt("Enter Your Age: ")
+// var updateAge = age.toLowerCase
 
-if ((updateNation == "pakistani") || (updateNation == "indian")) {
-    if (gender == "male" && age >= 18) {
-        console.log('You are eligible to vote')
-    }
-        else if (gender== "female" && age>=18) {
-            var marriage = (prompt("Are you married?"))
-            var updateMarriage = marriage.toLowerCase
-            if (marriage== "yes") {
-               console.log('You Are Eligible to vote')
-            } else {
-                console.log('You are not eligble')
-            }
+// if ((updateNation == "pakistani") || (updateNation == "indian")) {
+//     if (gender == "male" && age >= 18) {
+//         console.log('You are eligible to vote')
+//     }
+//         else if (gender== "female" && age>=18) {
+//             var marriage = (prompt("Are you married?"))
+//             var updateMarriage = marriage.toLowerCase
+//             if (marriage== "yes") {
+//                console.log('You Are Eligible to vote')
+//             } else {
+//                 console.log('You are not eligble')
+//             }
 
-    } else {
-       console.log('You are not Eligible to vote')
-    }
+//     } else {
+//        console.log('You are not Eligible to vote')
+//     }
 
-} else {
-        console.log("You are not eligible to vote")
+// } else {
+//         console.log("You are not eligible to vote")
 
-    }
+//     }
 
 
 
